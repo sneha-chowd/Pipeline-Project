@@ -1,6 +1,8 @@
 # Pipeline-Project
 COMP 383 Pipeline Project
 
+**STEP 1**
+
 **Download transcriptome data from NCBI using wget**
 
 Donor1 2dpi SRA link: https://www.ncbi.nlm.nih.gov/sra/SRX2896360
