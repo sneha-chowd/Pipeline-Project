@@ -35,3 +35,5 @@ These two wget lines of code in the command line will retrieve SRA files from NC
                subprocess.run(f"fastq-dump --split-files {sra_id} -O .", shell=True, check=True)
     
                #convert to fastq files
+               
+4 FASTQ files should appear in the project directory. Each SRA/SRX number will have 2 FASTQ files, one with forward reads and one with reverse reads.
