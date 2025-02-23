@@ -1,7 +1,7 @@
 import os #module for operating system interactions
 import subprocess #creation of new processes
 
-project_directory = "PipelineProject_SnehaChowdhury" #name project directory 
+project_directory = "PipelineProject_Your_Name" #name project directory 
 os.makedirs(project_directory, exist_ok=True) #make project directory
 os.chdir(project_directory) #change current working directory
 
