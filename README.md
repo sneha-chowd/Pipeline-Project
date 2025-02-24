@@ -45,3 +45,11 @@ Before running the wrapper.py code, HCMV.fasta needs to be downloaded from NCBI.
 
 wget -O HCMV.fasta "https://www.ncbi.nlm.nih.gov/search/api/download-sequence/?db=nuccore&id=NC_006273.2&format=fasta"
 
+
+**HELPFUL SOURCES**
+
+https://bowtie-bio.sourceforge.net/bowtie2/manual.shtml?utm_
+
+https://rkhetani.github.io/Intro-to-ChIPseq/03_align_and_filtering/?utm_
+
+
