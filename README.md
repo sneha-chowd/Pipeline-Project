@@ -37,3 +37,11 @@ These two wget lines of code in the command line will retrieve SRA files from NC
                #convert to fastq files
                
 4 FASTQ files should appear in the project directory. Each SRA/SRX number will have 2 FASTQ files, one with forward reads and one with reverse reads.
+
+
+**STEP 2** create HCMV index, utilize Bowtie2
+
+Before running the wrapper.py code, HCMV.fasta needs to be downloaded from NCBI. Use wget:
+
+wget -O HCMV.fasta "https://www.ncbi.nlm.nih.gov/search/api/download-sequence/?db=nuccore&id=NC_006273.2&format=fasta"
+
