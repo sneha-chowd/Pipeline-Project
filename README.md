@@ -21,7 +21,7 @@ These two wget lines of code in the command line will retrieve SRA files from NC
 
            import subprocess #creation of new processes
 
-           project_directory = "PipelineProject_SnehaChowdhury" #name project directory 
+           project_directory = "PipelineProject_YourName" #name project directory 
 
            os.makedirs(project_directory, exist_ok=True) #make project directory
 
